@@ -1,0 +1,6 @@
+tree(tree(leaf(1), leaf(2)),leaf(4)).
+
+swap(leaf(X),leaf(X)).
+swap(tree(X,Y),T):-
+    swap(tree(swap(Y),swap(X)),T).
+    

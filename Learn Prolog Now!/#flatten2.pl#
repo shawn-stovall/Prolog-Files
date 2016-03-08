@@ -1,0 +1,4 @@
+flatten([],[]).
+flatten([H|T],F):-
+    list(H),
+    flatten(H,X),

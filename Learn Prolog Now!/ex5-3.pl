@@ -1,0 +1,4 @@
+addone([],[]).
+addone([A|T1],[B|T2]):-
+	B is A + 1,
+	addone(T1,T2).

@@ -1,0 +1,4 @@
+child(anne,bridget).
+child(bridget,caroline).
+child(bridget,caroline).
+child(caroline,donna).

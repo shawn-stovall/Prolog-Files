@@ -1,0 +1,2 @@
+numeral(succ(X)):- numberal(X).
+numeral(0).

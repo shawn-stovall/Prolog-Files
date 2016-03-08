@@ -1,0 +1,7 @@
+lives(englishman,red,X).
+lives(spanish,X,jaguar).
+lives(japanese,X,Y).
+lives(X,Y,snail).
+
+zebra(Nationality):-
+    lives(Nationality,_,zebra).

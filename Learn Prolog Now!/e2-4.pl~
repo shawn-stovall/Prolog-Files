@@ -1,0 +1,14 @@
+word(astante, a,s,t,a,n,t,e).
+word(astoria, a,s,t,o,r,i,a).
+word(baratto, b,a,r,a,t,t,o).
+word(cobalto, c,o,b,a,l,t,o).
+word(pistola, p,i,s,t,o,l,a).
+word(statale, s,t,a,t,a,l,e).
+
+crossword(Word1,Word2,Word3,Word4,Word5,Word6):-
+	word(Word1, _11, A, _12, B, _13, C, _14),
+	word(Word2, _21, D, _22, E, _23, F, _24),
+	word(Word3, _31, G, _32, H, _33, I, _34),
+	word(Word4, _41, A, _42, D, _43, G, _44),
+	word(Word5, _51, B, _52, E, _53, H, _54),
+	word(Word6, _61, C, _62, F, _63, I, _66).

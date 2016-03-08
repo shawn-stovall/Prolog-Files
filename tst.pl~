@@ -1,0 +1,2 @@
+mortal(x) :- person(x).
+person(socrates).
